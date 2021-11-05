@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ahadi'
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,18 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
+#replace with mysql after deployment
+#DATABASES = {
+#     'default': {
+#            
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'ahadi',
+#        'USER': 'paulsaul',
+#        'PASSWORD': '443556126216621',
+#        'HOST': 'localhost',
+#        'PORT': '3306',
+#    },
+#}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
