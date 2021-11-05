@@ -1,0 +1,1 @@
+# ahadi_resources_django_based
